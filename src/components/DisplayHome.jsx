@@ -5,7 +5,7 @@ import Songitems from './Songitems'
 
 function DisplayHome() {
   return (
-    <>
+    <div className="min-h-screen bg-linear-to-b from-[#8b1111] via-[#3d0b0b] to-[#121212]">
       <Navbar/>
       <div className='mb-4'>
         <h1 className='my-5 font-bold text-2xl px-4'>Your top mixes</h1>
@@ -34,7 +34,7 @@ function DisplayHome() {
           ))}
         </div>
       </div>
-    </>
+    </div>
   )
 }
 
